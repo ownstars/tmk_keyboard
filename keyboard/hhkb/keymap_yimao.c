@@ -75,7 +75,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
     * |-----------------------------------------------------------|
     * |Tab  |   |   |   |   |   |MwL|MwU|McU|MwD|MwR|Wbk|Wfr|Alt-T|
     * |-----------------------------------------------------------|
-    * |Contro|   |   |   |   |   |Mb2|McL|McD|McR|Mb1|   |Return  |
+    * |Contro|Acl0|Acl1|Acl2|  |  |Mb2|McL|McD|McR|Mb1|  |Return  |
     * |-----------------------------------------------------------|
     * |Shift   |   |   |   |   |Mb3|Mb2|Mb1|Mb4|Mb5|   |Shift |   |
     * `-----------------------------------------------------------'
@@ -86,7 +86,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
     [3] = \
     KEYMAP(GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, INS, DEL, \
            TAB, NO,  NO,  NO,  NO,  NO,  WH_L,WH_U,MS_U,WH_D,WH_R,FN2, FN3, BSPC,     \
-           LCTL,NO,  NO,  NO,  NO,  NO,  NO,  MS_L,MS_D,MS_R,FN1, NO,  ENT,           \
+           LCTL,ACL0,ACL1,ACL2,  NO,  NO,  NO,  MS_L,MS_D,MS_R,FN1, NO,  ENT,           \
            LSFT,NO,  NO,  NO,  NO,  BTN3,BTN2,BTN1,NO,  NO,  NO,  RSFT,TRNS,          \
                 TRNS,LALT,          BTN1,               TRNS,TRNS),
 
